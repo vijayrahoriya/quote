@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #1c8c82;
+}
+
+.box{
+    background: #fff;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.3), 0 -6px 10px rgba(0,0,0,0.3);
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+}
+
+.quote{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quote p{
+    font-size: 1.1rem;
+    color: #444;
+    text-align: justify;
+}
+
+.quote span{
+    font-size: 1.3rem;
+    margin-right: 10px;
+}
+
+.quote span:last-child{
+    display: flex;
+    margin-left: 10;
+    margin-right: 0;
+    align-items: flex-end;
+}
+
+.author{
+    margin: 20px 0;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    color: #666;
+    justify-content: end;
+}
+
+.author .seprate{
+    font-size: 2rem;
+    color: #666;
+}
+
+hr{
+    background-color: rgb(252, 248, 248);
+    height: 2px;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.options,.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.icons i{
+    color: #1c8c82;
+    border: 2px solid #1c8c82;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    width: 40px;
+    font-size: .8rem;
+    cursor: pointer;
+    transition: all .8s ease;
+    margin-right: 10px;
+}
+
+.icons i:hover{
+    background: #1c8c82;
+    color: #fff;
+}
+
+button{
+    padding: 10px 20px;
+    background: #1c8c82;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+button:hover{
+    letter-spacing: .8px;
+}
