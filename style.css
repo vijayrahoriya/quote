@@ -18,6 +18,7 @@
 .box{
     background: #fff;
     width: 500px;
+    position: relative;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 6px 10px rgba(0,0,0,.3), 0 -6px 10px rgba(0,0,0,0.3);
@@ -80,6 +81,12 @@ hr{
     justify-content: space-between;
 }
 
+.options{
+    width: 100%;
+    position: sticky;
+    bottom: 20px;
+}
+
 
 .icons i{
     color: #1c8c82;
@@ -114,4 +121,18 @@ button{
 
 button:hover{
     letter-spacing: .8px;
+}
+
+.last{
+    height: 41%;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+@media(max-width: 500px){
+    .box{
+        margin: 0 20px;
+        height: 75vh;
+    }
 }
